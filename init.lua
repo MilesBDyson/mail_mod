@@ -37,6 +37,7 @@ dofile(MP .. "/api.lua")
 dofile(MP .. "/gui.lua")
 dofile(MP .. "/onjoin.lua")
 
+local QoS
 -- optional webmail stuff below
 local http = QoS and QoS(minetest.request_http_api(), 2) or minetest.request_http_api()
 
